@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  kubernetes-image-puller:
+  - apiVersion: v1
+    created: "2020-12-21T18:56:13.230461+08:00"
+    description: The kubernetes image puller downloads che images ahead of time for
+      faster workspace startup
+    digest: 2a8575d0c5d350dfa6e88d3d8898ff9f0769dd6a902d5401d0fc95c271ceca43
+    name: kubernetes-image-puller
+    urls:
+    - kubernetes-image-puller-1.0.0.tgz
+    version: 1.0.0
+generated: "2020-12-21T18:56:13.228918+08:00"
