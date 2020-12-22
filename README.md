@@ -71,6 +71,12 @@ The following values can be set:
 
 To set values, changes `deploy/helm/values.yaml` or use `--set property.name=value`
 
+#### or
+
+`helm repo add https://raw.githubusercontent.com/signcl/kubernetes-image-puller/master/packages`
+
+`helm install image-pull/kubernetes-image-puller`
+
 ### Installation - Openshift
 
 #### Openshift special consideration - Project Quotas
